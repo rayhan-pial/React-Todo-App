@@ -1,0 +1,10 @@
+.customsection {
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c; /* Dark background color */
+    color: #f5f5f5; /* Light text color */
+    text-align: right; /* Aligns text to the right */
+    padding: 20px;
+    height: 100vh; /* Optional: Full viewport height */
+    box-sizing: border-box; /* Ensures padding is included in height calculation */
+}

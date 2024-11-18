@@ -1,0 +1,87 @@
+/* Style for the form */
+form {
+  background-color: #1e1e1e; /* Darker background */
+  border: 1px solid #444; /* Subtle border for separation */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin: 20px auto; /* Center the form horizontally */
+  max-width: 400px; /* Limit the width of the form */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  color: #fff; /* Light text color for readability */
+  font-family: Arial, sans-serif; /* Optional: improve font appearance */
+}
+
+/* Style for form divs to structure the inputs */
+form div {
+  margin-bottom: 15px; /* Add spacing between input fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+   /* Align content to the left */
+  gap: 5px; /* Add small spacing between label and input */
+}
+
+/* Style for labels */
+form label {
+  font-size: 1rem;
+  color: #ccc; /* Slightly muted text color for labels */
+}
+
+/* Style for inputs */
+form input {
+  width: 95%; /* Make inputs full width */
+  padding: 8px;
+  border: 1px solid #555; /* Subtle border for inputs */
+  border-radius: 10px; /* Rounded corners for inputs */
+  background-color: #2a2a2a; /* Darker input background */
+  color: #fff; /* Light text for contrast */
+  font-size: 1rem;
+}
+
+form #desc {
+  height: 50px; /* Make the description box slightly taller */
+}
+
+/* Add focus styles for inputs */
+form input:focus {
+  outline: none;
+  border-color: #ff9800; /* Highlight border on focus */
+  box-shadow: 0 0 5px #ff9800; /* Glow effect on focus */
+}
+
+form textarea {
+    width: 95%; /* Full width like the inputs */
+    padding: 8px;
+    border: 1px solid #555; /* Subtle border */
+    border-radius: 10px; /* Rounded corners to match the inputs */
+    background-color: #2a2a2a; /* Same background color as inputs */
+    color: #fff; /* Light text for readability */
+    font-size: 1rem;
+    resize: vertical; /* Allow resizing only vertically */
+    min-height: 70px; /* Increase the default height */
+  }
+
+  /* Add focus styles for textarea */
+  form textarea:focus {
+    outline: none;
+    border-color: #ff9800; /* Highlight border on focus */
+    box-shadow: 0 0 5px #ff9800; /* Glow effect on focus */
+  }
+
+
+/* Style for the button */
+form button {
+  width: 100%; /* Full-width button */
+  padding: 10px;
+  background-color: #ff9800; /* Accent color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1e1e1e; /* Dark text for contrast */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ffa733; /* Lighter shade on hover */
+}

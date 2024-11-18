@@ -1,0 +1,58 @@
+/* Style for the article */
+article {
+  display: flex;
+  justify-content: space-between; /* Align content on the left and right */
+  align-items: center; /* Vertically center the content */
+  background-color: #1e1e1e; /* Dark background color */
+  border: 1px solid #444; /* Lighter border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px;
+  margin: 10px 0; /* Add spacing between articles */
+  color: #fff; /* Light text for readability */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* Style for the left content (title and description) */
+article div:first-child {
+  flex: 1; /* Allow this section to take most of the space */
+  margin-right: 20rem;
+}
+
+/* Style for the title */
+article h3 {
+  margin: 0 0 5px;
+  font-size: 1.2rem;
+  color: #ff9800; /* Accent color for the title */
+}
+
+/* Style for the description */
+article p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ccc; /* Slightly muted color for the description */
+}
+
+/* Style for the button container */
+article div:last-child {
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+}
+
+/* Style for the button */
+button {
+  background-color: transparent; /* No background for a clean look */
+  border: none; /* Remove border */
+  cursor: pointer;
+  color: #ff4d4d; /* Red color for delete button */
+  transition: transform 0.2s, color 0.2s; /* Smooth hover effect */
+}
+
+button:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  color: #ff6666; /* Lighter red on hover */
+}
+
+/* Style for the icon */
+button i {
+  font-size: 1.5rem;
+}
